@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DBA2E11EFB235D0A6D803F0 /* Pods_CollectionView_simplify_business.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651EB0A071444D7644D33615 /* Pods_CollectionView_simplify_business.framework */; };
 		32BFE9BA1F8F220D00B3A869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFE9B91F8F220D00B3A869 /* AppDelegate.swift */; };
 		32BFE9BC1F8F220D00B3A869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFE9BB1F8F220D00B3A869 /* ViewController.swift */; };
 		32BFE9BF1F8F220D00B3A869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BFE9BD1F8F220D00B3A869 /* Main.storyboard */; };
 		32BFE9C11F8F220D00B3A869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BFE9C01F8F220D00B3A869 /* Assets.xcassets */; };
 		32BFE9C41F8F220D00B3A869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BFE9C21F8F220D00B3A869 /* LaunchScreen.storyboard */; };
+		32BFE9CC1F8F224900B3A869 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFE9CB1F8F224900B3A869 /* CollectionView.swift */; };
+		32BFE9CE1F8F327C00B3A869 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFE9CD1F8F327C00B3A869 /* LabelCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		32BFE9C01F8F220D00B3A869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32BFE9C31F8F220D00B3A869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32BFE9C51F8F220D00B3A869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BFE9CB1F8F224900B3A869 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		32BFE9CD1F8F327C00B3A869 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		651EB0A071444D7644D33615 /* Pods_CollectionView_simplify_business.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollectionView_simplify_business.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67210C8A10F86CF958804187 /* Pods-CollectionView-simplify-business.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionView-simplify-business.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionView-simplify-business/Pods-CollectionView-simplify-business.release.xcconfig"; sourceTree = "<group>"; };
+		E13A8D7787DC5DEA7E7738C5 /* Pods-CollectionView-simplify-business.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollectionView-simplify-business.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollectionView-simplify-business/Pods-CollectionView-simplify-business.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DBA2E11EFB235D0A6D803F0 /* Pods_CollectionView_simplify_business.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +47,11 @@
 		32BFE9AD1F8F220D00B3A869 = {
 			isa = PBXGroup;
 			children = (
+				32BFE9CB1F8F224900B3A869 /* CollectionView.swift */,
 				32BFE9B81F8F220D00B3A869 /* CollectionView-simplify-business */,
 				32BFE9B71F8F220D00B3A869 /* Products */,
+				D05BD5A69C0770CA4E8234F1 /* Pods */,
+				65CF287C8B4B4E0138972971 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +68,30 @@
 			children = (
 				32BFE9B91F8F220D00B3A869 /* AppDelegate.swift */,
 				32BFE9BB1F8F220D00B3A869 /* ViewController.swift */,
+				32BFE9CD1F8F327C00B3A869 /* LabelCell.swift */,
 				32BFE9BD1F8F220D00B3A869 /* Main.storyboard */,
 				32BFE9C01F8F220D00B3A869 /* Assets.xcassets */,
 				32BFE9C21F8F220D00B3A869 /* LaunchScreen.storyboard */,
 				32BFE9C51F8F220D00B3A869 /* Info.plist */,
 			);
 			path = "CollectionView-simplify-business";
+			sourceTree = "<group>";
+		};
+		65CF287C8B4B4E0138972971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651EB0A071444D7644D33615 /* Pods_CollectionView_simplify_business.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D05BD5A69C0770CA4E8234F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E13A8D7787DC5DEA7E7738C5 /* Pods-CollectionView-simplify-business.debug.xcconfig */,
+				67210C8A10F86CF958804187 /* Pods-CollectionView-simplify-business.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32BFE9C81F8F220D00B3A869 /* Build configuration list for PBXNativeTarget "CollectionView-simplify-business" */;
 			buildPhases = (
+				9CF7A00325D719B56D2E8D8D /* [CP] Check Pods Manifest.lock */,
 				32BFE9B21F8F220D00B3A869 /* Sources */,
 				32BFE9B31F8F220D00B3A869 /* Frameworks */,
 				32BFE9B41F8F220D00B3A869 /* Resources */,
+				CB62909ABEB21727FFB6DE68 /* [CP] Embed Pods Frameworks */,
+				8ABE34DFC78E5ACFEAE7A51B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +164,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8ABE34DFC78E5ACFEAE7A51B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionView-simplify-business/Pods-CollectionView-simplify-business-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CF7A00325D719B56D2E8D8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollectionView-simplify-business-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB62909ABEB21727FFB6DE68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CollectionView-simplify-business/Pods-CollectionView-simplify-business-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CHTCollectionViewWaterfallLayout/CHTCollectionViewWaterfallLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CHTCollectionViewWaterfallLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CollectionView-simplify-business/Pods-CollectionView-simplify-business-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32BFE9B21F8F220D00B3A869 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BFE9CC1F8F224900B3A869 /* CollectionView.swift in Sources */,
 				32BFE9BC1F8F220D00B3A869 /* ViewController.swift in Sources */,
+				32BFE9CE1F8F327C00B3A869 /* LabelCell.swift in Sources */,
 				32BFE9BA1F8F220D00B3A869 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +361,13 @@
 		};
 		32BFE9C91F8F220D00B3A869 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13A8D7787DC5DEA7E7738C5 /* Pods-CollectionView-simplify-business.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JW6AL86C37;
 				INFOPLIST_FILE = "CollectionView-simplify-business/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.madordie.CollectionView-simplify-business";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +378,13 @@
 		};
 		32BFE9CA1F8F220D00B3A869 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67210C8A10F86CF958804187 /* Pods-CollectionView-simplify-business.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JW6AL86C37;
 				INFOPLIST_FILE = "CollectionView-simplify-business/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.madordie.CollectionView-simplify-business";
 				PRODUCT_NAME = "$(TARGET_NAME)";

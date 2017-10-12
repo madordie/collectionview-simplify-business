@@ -1,0 +1,6 @@
+framework module Pods_CollectionView_simplify_business {
+  umbrella header "Pods-CollectionView-simplify-business-umbrella.h"
+
+  export *
+  module * { export * }
+}
